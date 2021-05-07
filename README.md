@@ -5,8 +5,6 @@
 
 ## 演示（请star支持）
 
-<img src="https://github.com/Roc0323/WatermarkShoot/blob/master/screenshot/pic1.jpg" width="200"  alt="测试地方"/><br/>
-
-![](https://github.com/Roc0323/WatermarkShoot/blob/master/screenshot/pic1.jpg?raw=true)
-![](https://github.com/Roc0323/WatermarkShoot/blob/master/screenshot/pic2.jpg?raw=true)
-![](https://github.com/Roc0323/WatermarkShoot/blob/master/screenshot/pic2.jpg?raw=true)
+<img src="https://github.com/Roc0323/WatermarkShoot/blob/master/screenshot/pic1.jpg" width="300"  alt="测试地方"/><br/>
+<img src="https://github.com/Roc0323/WatermarkShoot/blob/master/screenshot/pic2.jpg" width="300"  alt="测试地方"/><br/>
+<img src="https://github.com/Roc0323/WatermarkShoot/blob/master/screenshot/pic3.jpg" width="300"  alt="测试地方"/><br/>
