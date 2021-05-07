@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.roc.baselibrary.JCameraView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:duration_max="10000"
+        app:iconLeft="@mipmap/icon_camera_over"
+        app:iconRight="@mipmap/icon_camera_switch_direction"
+        app:iconConfirm="@mipmap/icon_camera_finish"
+        app:iconCancel="@mipmap/icon_camera_back"
+        app:iconSrc="@mipmap/icon_camera_switch_direction"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ll_watermark_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_watermark_positioning"/>
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="江苏省南京市鼓楼区集庆门大街268号"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:layout_marginLeft="1dp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Roc  2021-04-13 14:50"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="2dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
